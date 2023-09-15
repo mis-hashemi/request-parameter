@@ -56,7 +56,7 @@ To use the "request-parameter" library in your Go project, you can follow these 
 1. Install the library in your project:
 
    ```shell
-   go get github.com/your-username/request-parameter
+   go get github.com/mis-hashemi/request-parameter
 
 ## Examples
 
