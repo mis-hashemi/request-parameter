@@ -8,7 +8,7 @@ import (
 	"github.com/mis-hashemi/request-parameter/query"
 )
 
-func ParseQueryString(c echo.Context, paramInfoMap map[string]query.RequestParameter) (query.QueryInfo, error) {
+func ParseEchoQueryString(c echo.Context, paramInfoMap map[string]query.RequestParameter) (query.QueryInfo, error) {
 	var queries []query.Query
 
 	for param, paramInfo := range paramInfoMap {
