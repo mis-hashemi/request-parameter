@@ -26,6 +26,8 @@ func GetAllStringQueryOperator() []QueryOperator {
 		QueryOperatorNotContain,
 		QueryOperatorEmpty,
 		QueryOperatorNotEmpty,
+		QueryOperatorIn,
+		QueryOperatorNotIn,
 	}
 }
 
